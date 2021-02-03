@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--HTML meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!--Titulo-->
+    <title>Mi primer formulario</title>
+    
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="./styles/style.css">
+   
+    <!--Icono de imagen-->
+    <link rel="icon" type="image/png" href="./style/img/nav-logo.png">
+</head>
+<body>
+    <!--barra de navegacion-->
+    <div class="container">
+        <nav>
+            <!--logo-->
+            <div class="nav-logo-container">
+                <a href="#menu">
+                    <img class="nav-logo" src="./styles/img/nav-logo.png" alt="Greddy">
+                </a>
+            </div>
+            <!--Opciones-->
+            <ul class="nav-link">
+                <!--Opcion1-->
+                <li>
+                    <a href="#Contactanos">Contactanos</a>
+                </li>
+                <!--Opcion 2-->
+                <li>
+                    <a href="#Portafolio">Portafolio</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!--barra de navegaciosn final-->
+      
+    <!--Main Section-->
+    <section class="main-section"><!--contenedor componente-->
+        <div class="main-content">
+            <h1 class="Titulo">Contactanos</h1>
+            <br>
+            <label for="nombres">Nombres</label>
+            <input id="nombres" type="text" placeholder="Nombres">
+            
+            <label for="apellido">Apellidos</label>
+            <input id="apellido" type="text" placeholder="Apellidos">
+            
+            <label for="Telefono">Telefono</label>
+            <input id="telefono" type="number" placeholder="Telefono">
+            
+            <label for="direccion">Direccion</label>
+            <input id="direccion" type="text" placeholder="Direccion">
+            
+            <label for="E-mail">E-mail</label>
+            <input id="email" type="text" placeholder="E-mail">
+           
+            <label for="Solicitud">Solicitud</label>
+            <input id="Solicitud" type="text" placeholder="Descripcion">
+                      
+
+        </div><!--Contenedor padre flexbox-->
+    <section class="main-section">
+               
+            <a href="#menu" class="main-button">
+                Cancelar
+            </a>
+            <a href="#menu" class="main-button">
+                Cancelar
+            </a>
+        </div>
+    </section>
+</body>
+</html>
